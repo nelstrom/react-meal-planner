@@ -13,9 +13,25 @@ const data = [
   { key: 9, name: "Eggs on Toast" }
 ];
 
+// Challenge:
+// Present the user with a list of meal suggestions.
+// For each suggestion, the user can click a button labelled "Pick" or "Reject"
+// Clicking the "Pick" button makes the selected meal appear in the list of "Chosen meals"
+// Clicking the "Reject" button makes the selected meal appear in the list of "Rejected meals"
+// After clicking either "Pick" or "Reject", the selected meal should be removed from the list of "Remaining suggestions"
+//
+// This App component provides the basic template for this functionality.
+// Your challenge is to add click handlers to the "Pick" and "Reject" buttons
+// and to compute the contents of the three lists:
+//
+// * remainingSuggestions
+// * chosenMeals
+// * rejectedMeals
+//
+// Good luck!
+
 function App() {
   const allMeals = data;
-
   const remainingSuggestions = allMeals;
   const chosenMeals = [];
   const rejectedMeals = [];
